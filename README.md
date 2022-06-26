@@ -27,7 +27,7 @@ Mobile automated testing using Appium and Java
 ## Setup  
 
 ```diff
-- I am still building this amazing workshop so please don't fork this repository until I will remove this message
+- I am still building this fantastic workshop, so please don't fork this repository until I remove this message
 ```
 
 ---
