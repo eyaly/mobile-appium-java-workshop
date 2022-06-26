@@ -8,7 +8,6 @@ Mobile automated testing using Appium and Java
 * Create an automated iOS test
 * Find element locators using Appium Inspector
 * Run test in Sauce Labs
-* Report results to Sauce Labs
 * Run tests in parallel
 
 ## Your Instructor: Eyal Yovel
@@ -18,12 +17,20 @@ Mobile automated testing using Appium and Java
 
 - 🏢 I’m a Sr Solutions Architect at Sauce Labs
 - 😄 Pronouns: he/him
+📫 &nbsp; Links:
+</br>[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eyal-yovel-9786933/)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/eyalyovel)
+[![Github](https://img.shields.io/badge/Github-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/eyaly/)
 
 ---
+### Sauce Labs setup
+1. Free [Sauce account](https://saucelabs.com/sign-up)
+2. Save your Sauce Labs Username and Access Key by going to the [Sauce Labs user settings page](https://app.saucelabs.com/user-settings)
 
+---
 ### Gitpod setup
 
-ℹ Gitpod lets you run an entire Dev environment from a browser! You can use this approach if you don't know how to setup a local Java environment.
+ℹ Gitpod lets you run an entire Dev environment from a browser! You can use this approach if you don't have time or you don't know how to setup a local Java environment.
 
 1. Sign up for a free [GitHub account](https://github.com/)
 2. [Fork this repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
@@ -38,8 +45,6 @@ Mobile automated testing using Appium and Java
 4. Once the Gitpod.io URL is loaded, you will need to sign in with the GitHub account you created earlier 
 5. Once the development environment is loaded, you should see 'Ready to test!' in the Terminal window in the lower portion of the window, run the following commands in that Terminal to set your `SAUCE_USERNAME`, `SAUCE_ACCESS_KEY`:
 
-ℹ️ You can get your Sauce Labs Username and Access Key by going to the [Sauce Labs user settings page](https://app.saucelabs.com/user-settings)
-
 ```bash
 eval $(gp env -e SAUCE_USERNAME=<sauce_username>)
 eval $(gp env -e SAUCE_ACCESS_KEY=<sauce_access_key>)
@@ -47,7 +52,7 @@ eval $(gp env -e SAUCE_ACCESS_KEY=<sauce_access_key>)
 
 > Replace <sauce_username>, <sauce_access_key> with your credentials
 
-Once you have run those 3 commands, you can run the following commands to test your environment variables:
+Once you have run those 2 commands, you can run the following commands to test your environment variables:
 
 ```bash
 echo $SAUCE_USERNAME
@@ -57,7 +62,7 @@ echo $SAUCE_ACCESS_KEY
 Run sanity tests
 
 ```bash
-mvn test -Dtest="IOSTest" -X
+mvn test -Dtest="SanityTest" -X
 ```
 
 <br/>
@@ -102,7 +107,7 @@ Setup environment variables on your system
 Run sanity tests
 
 ```java
-mvn test -Dtest="IOSTest" -X
+mvn test -Dtest="SanityTest" -X
 ```
 
 <br/>
@@ -129,7 +134,7 @@ mvn test -Dtest="IOSTest" -X
 
 </br>
 
-### ✅👏Environment setup is complete if tests passed
+***✅👏Environment setup is complete if tests passed***
 
 ## Extra resources
 
