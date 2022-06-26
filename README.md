@@ -4,6 +4,7 @@ Mobile automated testing using Appium and Java
 
 ## 🧠You will learn to
 
+* What is Appium
 * Create an automated Android test
 * Create an automated iOS test
 * Find element locators using Appium Inspector
@@ -23,9 +24,19 @@ Mobile automated testing using Appium and Java
 [![Github](https://img.shields.io/badge/Github-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/eyaly/)
 
 ---
+## Setup  
+
+<font color="red">I am still building this amazing workshop so please don't fork this repository until I will remove this message </font>
+
+---
 ### Sauce Labs setup
 1. Free [Sauce account](https://saucelabs.com/sign-up)
-2. Save your Sauce Labs Username and Access Key by going to the [Sauce Labs user settings page](https://app.saucelabs.com/user-settings)
+2. Make sure you know how to find your Sauce Labs Username and Access Key by going to the [Sauce Labs user settings page](https://app.saucelabs.com/user-settings)
+
+---
+### Appium setup
+1. We will run our automated tests on Sauce Labs devices; therefore, there is no need to install Appium Server.
+2. [Setup appium inspector](https://github.com/appium/appium-inspector#installation)
 
 ---
 ### Gitpod setup
@@ -138,7 +149,6 @@ mvn test -Dtest="SanityTest" -X
 
 ## Extra resources
 
-- [Setup appium inspector](https://github.com/appium/appium-inspector#installation)
 - [Appium options for sauce](https://docs.saucelabs.com/dev/test-configuration-options/#mobile-app-appium-capabilities-required)
 - [All appium capabilities](https://appium.io/docs/en/writing-running-appium/caps/)
-- [More critical Appium resources](https://github.com/saucelabs-training/demo-java/blob/main/TRAINING.md)
+- [More Appium resources](https://github.com/saucelabs-training/demo-java/blob/main/TRAINING.md)
