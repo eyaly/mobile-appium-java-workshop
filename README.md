@@ -27,6 +27,7 @@ Mobile automated testing using Appium and Java
 ## Setup  
 
 <font color="red">I am still building this amazing workshop so please don't fork this repository until I will remove this message </font>
+<span style="color: green"> Some green text </span>
 
 ---
 ### Sauce Labs setup
