@@ -1,25 +1,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Native Demo Suite" parallel="tests" thread-count="1" verbose="0">
 
-	<test name="Android Demo App" enabled="true">
-		<parameter name="platformName" value="android"></parameter>
-		<parameter name="automationName" value="UiAutomator2"></parameter>
-		<parameter name="appium:deviceName" value="samsung.*"></parameter>
-		<parameter name="appium:platformVersion" value="12"></parameter>
-		<parameter name="appium:app" value="myApp"></parameter>
+	<test name="Demo App" enabled="true">
 		<classes>
-			<class name="com.demo.android.DemoTest"></class>
-		</classes>
-	</test>
-
-	<test name="iOS Demo App" enabled="true">
-		<parameter name="platformName" value="iOS"></parameter>
-		<parameter name="automationName" value="XCuiTest"></parameter>
-		<parameter name="appium:deviceName" value="iPhone.*"></parameter>
-		<parameter name="appium:platformVersion" value="14"></parameter>
-		<parameter name="appium:app" value="myApp"></parameter>
-		<classes>
-			<class name="com.demo.ios.DemoTest"></class>
+			<class name="com.demo.DemoTest"></class>
 		</classes>
 	</test>
 

@@ -4,6 +4,7 @@ import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 
 import java.lang.reflect.Method;
 import java.net.MalformedURLException;
@@ -11,7 +12,7 @@ import java.util.Map;
 
 import static com.demo.Config.region;
 
-public class BaseTest {
+public class DemoTest {
 
     private String SAUCE_EU_URL = "https://ondemand.eu-central-1.saucelabs.com/wd/hub";
     private String SAUCE_US_URL = "https://ondemand.us-west-1.saucelabs.com/wd/hub";
@@ -33,12 +34,11 @@ public class BaseTest {
                 break;
         }
 
-        for (Map.Entry<String, String> entry : Reporter.getCurrentTestResult().getTestContext().getCurrentXmlTest().getAllParameters().entrySet()) {
-            String k = entry.getKey();
-            String v = entry.getValue();
-            System.out.println("key = " + k + " .Value = " + v );
-        }
+    }
 
+    @Test
+    public void demoTest() {
+        System.out.println("*** Start demoTest test ***");
     }
 
     @AfterMethod
