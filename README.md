@@ -26,10 +26,6 @@ Mobile automated testing using Appium and Java
 ---
 ## Setup  
 
-```diff
-- I am still building this fantastic workshop, so please don't fork this repository until I remove this message
-```
-
 ---
 ### Sauce Labs setup
 1. Free [Sauce account](https://saucelabs.com/sign-up)
