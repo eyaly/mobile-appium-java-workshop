@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Native Demo Suite" parallel="tests" thread-count="2" verbose="0">
+
+	<test name="Demo App Android" enabled="true">
+		<classes>
+			<class name="com.demo.answers.ex2_DevelopAndroidTest"></class>
+		</classes>
+	</test>
+
+	<test name="Demo App ios" enabled="true">
+		<classes>
+			<class name="com.demo.answers.ex4_DevelopIOSTest"></class>
+		</classes>
+	</test>
+
+</suite>
