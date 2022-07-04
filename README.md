@@ -34,7 +34,7 @@ Mobile automated testing using Appium and Java
 ---
 ### Appium setup
 1. We will run our automated tests on Sauce Labs devices; therefore, there is no need to install Appium Server.
-2. Please install [Setup appium inspector](https://github.com/appium/appium-inspector#installation). Appium Inspector is basically just an Appium client (like WebdriverIO, Appium's Java client, etc...) with a user interface. 
+2. Please install [appium inspector](https://github.com/appium/appium-inspector#installation). Appium Inspector is basically just an Appium client (like WebdriverIO, Appium's Java client, etc...) with a user interface. 
 
 ---
 ### Gitpod setup
