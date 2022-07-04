@@ -75,7 +75,7 @@ echo $SAUCE_ACCESS_KEY
 Run sanity tests
 
 ```bash
-mvn test -Dtest="SanityTest" -X
+mvn clean test -DtestngXmlFile=myDemoTests.xml
 ```
 
 <br/>
@@ -84,13 +84,26 @@ mvn test -Dtest="SanityTest" -X
       <strong>Click here</strong> to see an example console output.
     </summary>
 
+    [INFO] -------------------------------------------------------
+    [INFO]  T E S T S
+    [INFO] -------------------------------------------------------
+    [INFO] Running TestSuite
+    *** BeforeMethod hook. Running method demoTest ***
+    region is us
+    *** Start demoTest test ***
+    *** AfterMethod hook ***
+    [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.488 s - in TestSuite
+    [INFO] 
+    [INFO] Results:
+    [INFO] 
     [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
     [INFO] 
     [INFO] ------------------------------------------------------------------------
     [INFO] BUILD SUCCESS
     [INFO] ------------------------------------------------------------------------
-    [INFO] Total time:  35.863 s
-
+    [INFO] Total time:  3.579 s
+    [INFO] Finished at: 2022-07-04T12:05:35+01:00
+    [INFO] ------------------------------------------------------------------------
 
   </details>
 
@@ -120,7 +133,7 @@ Setup environment variables on your system
 Run sanity tests
 
 ```java
-mvn test -Dtest="SanityTest" -X
+mvn clean test -DtestngXmlFile=myDemoTests.xml
 ```
 
 <br/>
@@ -129,20 +142,27 @@ mvn test -Dtest="SanityTest" -X
       <strong>Click here</strong> to see an example console output.
     </summary>
 
-        
-        Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 54.305 sec
+    [INFO] -------------------------------------------------------
+    [INFO]  T E S T S
+    [INFO] -------------------------------------------------------
+    [INFO] Running TestSuite
+    *** BeforeMethod hook. Running method demoTest ***
+    region is us
+    *** Start demoTest test ***
+    *** AfterMethod hook ***
+    [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.488 s - in TestSuite
+    [INFO] 
+    [INFO] Results:
+    [INFO] 
+    [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+    [INFO] 
+    [INFO] ------------------------------------------------------------------------
+    [INFO] BUILD SUCCESS
+    [INFO] ------------------------------------------------------------------------
+    [INFO] Total time:  3.579 s
+    [INFO] Finished at: 2022-07-04T12:05:35+01:00
+    [INFO] ------------------------------------------------------------------------
 
-        Results :
-
-        Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
-
-        [INFO] ------------------------------------------------------------------------
-        [INFO] BUILD SUCCESS
-        [INFO] ------------------------------------------------------------------------
-        [INFO] Total time:  56.063 s
-        [INFO] Finished at: 2021-11-03T16:03:20-04:00
-        [INFO] ------------------------------------------------------------------------
-        
   </details>
 
 </br>
