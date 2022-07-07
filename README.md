@@ -25,7 +25,7 @@ Mobile automated testing using Appium and Java
 
 ## Your TA: Aleks Shineleva
 
-<img src="./graphics/Aleksandra_Shineleva" alt="me" width="200"/>
+<img src="./graphics/Aleksandra_Shineleva" alt="Aleks" width="200"/>
 
 
 - 🏢 I’m a Customer Support Engineer at Sauce Labs
