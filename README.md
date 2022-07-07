@@ -113,7 +113,9 @@ mvn clean test -DtestngXmlFile=myDemoTests.xml
 
 <br/>
 
-Please watch this video:
+#### In the next video I demo how to fork the repo and connect to Gitpod:
+
+https://user-images.githubusercontent.com/6969588/177877688-f735e152-991d-4c7e-a326-0a9a2969fea9.mp4
 
 
 
