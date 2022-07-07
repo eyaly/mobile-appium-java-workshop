@@ -113,6 +113,10 @@ mvn clean test -DtestngXmlFile=myDemoTests.xml
 
 <br/>
 
+Please watch this video:
+https://github.com/eyaly/mobile-appium-java-workshop/blob/main/graphics/workshop_prep2.mp4
+
+
 ***✅👏Environment setup is complete if tests passed***
 
 ---
