@@ -23,6 +23,14 @@ Mobile automated testing using Appium and Java
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/eyalyovel)
 [![Github](https://img.shields.io/badge/Github-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/eyaly/)
 
+## Your TA: Aleks Shineleva
+
+<img src="./graphics/Aleksandra_Shineleva" alt="me" width="200"/>
+
+
+- 🏢 I’m a Customer Support Engineer at Sauce Labs
+- 😄 Pronouns: she/her
+
 ---
 ## Setup  
 
