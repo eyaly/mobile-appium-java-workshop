@@ -183,3 +183,6 @@ mvn clean test -DtestngXmlFile=myDemoTests.xml
 - [Appium options for sauce](https://docs.saucelabs.com/dev/test-configuration-options/#mobile-app-appium-capabilities-required)
 - [All appium capabilities](https://appium.io/docs/en/writing-running-appium/caps/)
 - [More Appium resources](https://github.com/saucelabs-training/demo-java/blob/main/TRAINING.md)
+
+## Conclusions
+Please leave [quick and anonymous feedback on this workshop](https://docs.google.com/forms/d/e/1FAIpQLSfhKpfdRU9FuqYMfFyqD3GhjdYADzZikjes7boVErWlru4XBA/viewform)
