@@ -83,7 +83,12 @@ Anything helps!
  * Make sure you are logged into GitHub
  * Click the Fork in the upper right of the GitHub.
  * Give the repo a ⭐ while you're here 🤩
-3. In the browser address bar, your GitHub url (`https://github.com/USERNAME/this-repo-name`) with `https://gitpod.io/#`
+3. Click here
+     
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/nadvolod/js-code/tree/master/web-testing-2022)
+
+OR  
+In the browser address bar, add your GitHub url (`https://github.com/USERNAME/this-repo-name`) with `https://gitpod.io/#`
     * The resulting url should look as follows:
    
       > https://gitpod.io/#https://github.com/USERNAME/mobile-appium-java-workshop
