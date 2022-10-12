@@ -2,14 +2,49 @@
 
 Mobile automated testing using Appium and Java
 
+> Before we start, open this in a new tab and let the container load.
+
+[![Try in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/eyaly/mobile-appium-java-workshop)
+
 ## 🧠You will learn to
 
 * What is Appium
 * Create an automated Android test
 * Create an automated iOS test
 * Find element locators using Appium Inspector
-* Run test in Sauce Labs
+* Run tests in Sauce Labs real devices
 * Run tests in parallel
+
+## Testing for Good
+
+### 🌎Testing for Good enables great test automation engineering while shaping a more equitable society.👩‍💻
+
+Today, we're asking for donations for [Environmental Working Group](https://buy.stripe.com/9AQdU42lj9i7bHGcMN)
+
+### [About Environmental Working Group](https://www.ewg.org/)
+
+We're advocates who won't quit. We're scientists that find solutions. We're people trying to make the safest choices for our health. At the Environmental Working Group, we believe that you should have easy access to the information you need to make smart, healthy choices. It’s this belief that inspired our president and co-founder, Ken Cook, to create EWG.  
+
+Since 1993, we've worked tirelessly to protect public health. Whether it's spotlighting harmful industry standards, speaking out against outdated government legislation or empowering consumers with breakthrough education and research, we're in this fight. 
+
+And we're not going anywhere.
+
+👉 While the event is free, Sauce Labs encourages all attendees to 
+
+👉 **[donate](https://buy.stripe.com/9AQdU42lj9i7bHGcMN)** 
+
+Anything helps! 
+
+100% of donations go to support the cause.
+
+## Key
+
+💡 this is a tip
+
+🏋️‍♀️ this is an exercise for you to do
+
+❓ this is a question for us to think and talk about. Try not to scroll beyond this question before we discuss
+
 
 ## Your Instructor: Eyal Yovel
 
@@ -23,13 +58,7 @@ Mobile automated testing using Appium and Java
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/eyalyovel)
 [![Github](https://img.shields.io/badge/Github-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/eyaly/)
 
-## Your TA: Aleks Shineleva
-
-<img src="./graphics/Aleksandra_Shineleva.png" alt="Aleks" width="200"/>
-
-
-- 🏢 I’m a Customer Support Engineer at Sauce Labs
-- 😄 Pronouns: she/her
+## Your TA:
 
 ---
 ## Setup  
