@@ -74,9 +74,9 @@ Anything helps!
 2. Please install [appium inspector](https://github.com/appium/appium-inspector#installation). Appium Inspector is basically just an Appium client (like WebdriverIO, Appium's Java client, etc...) with a user interface. 
 
 ---
-### Demo app(s)
-The demo app that has been used for all these tests can be found [here](https://github.com/saucelabs/sample-app-mobile/releases).
-Be aware of the fact that and iOS simulator uses a different build then a iOS real device. So please check the file you
+### Demo App(s)
+1. The demo app that has been used for all these tests can be found [here](https://github.com/saucelabs/sample-app-mobile/releases).
+2. Be aware of the fact that and iOS simulator uses a different build then a iOS real device. So please check the file you
 download.
 ---
 ### Gitpod setup
